@@ -3,7 +3,6 @@ import styled from 'styled-components';
 import { menuData } from '../../../data/MenuData';
 import { Nav, Logo, MenuBars, NavMenu, NavMenuLinks, NavBtn } from './Navbar.elements';
 import { Button } from '../../atoms';
-import { FaBars } from 'react-icons/fa';
 
 
 const Navbar = () => {
