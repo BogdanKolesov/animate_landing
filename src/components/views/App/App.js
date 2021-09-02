@@ -17,6 +17,9 @@ function App() {
       <Navbar toggle={toggle} />
       <Dropdown isOpen={isOpen} toggle={toggle} />
       <Hero slides={SliderData} />
+
+      //todo! Router
+    //Todo? Theme, Pages
     </>
   );
 }
