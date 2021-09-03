@@ -3,11 +3,11 @@ import styled from 'styled-components';
 export const Section = styled.section`
     width: 100%;
     height: 100%;
-    padding: 2rem 0rem ;
+    padding: 4rem 0 ;
 `;
 
 export const Container = styled.div`
-    padding: (calc((100vw - 1300px) / 2))rem;
+    padding: rem(calc((100vw - 1300px) / 2));
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 800px;
@@ -33,15 +33,12 @@ export const ColumnLeft = styled.div`
 
     p{
         margin-bottom: 2rem;
-        @media screen and (max-width: 768px){
-        order: ${({ reverse }) => (reverse ? '2' : '1')};
-    }
     }
 
 `;
 
 export const ColumnRight = styled.div`
-    padding: 1rem;
+    padding: 1rem 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
